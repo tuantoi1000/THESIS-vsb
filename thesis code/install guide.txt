@@ -1,0 +1,15 @@
+Steps to start the website:
+1/ Type npm i (npm install) for installing node_module for each backend and front end.
+2/ Type npm start in the backend to activate product and user data.
+3/ Type npm start in the frontend to activate the interface of the e-commerce website
+
+
+If in backend don't load MongoDB because backend don't have .env
+Please create ".env" file and paste it:
+MONGODB_URL = mongodb+srv://tuantoi1000:P6yFtqv8pYZcwARF@cluster0.0nhdbyd.mongodb.net/?retryWrites=true&w=majority
+APP_URL = http://localhost:8000/
+URL_REACT = https://fe-eshop.vercel.app/
+
+
+
+

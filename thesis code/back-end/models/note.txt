@@ -1,0 +1,1625 @@
+const dataProduct = [
+    {
+        /* HAT */
+        id: 'hat-1',
+        nameProduct: 'HAT HORSEFEATHERS JAKE BEANIE',
+        category: 'HAT',
+        price: 19.95,
+        image: `http://localhost:8000/public/images/hat/product0.jpg`,
+        ratting: 3,
+        countOfRatting: 2,
+        to: '/product/hat-1',
+        features: [
+            'Composition: 100% Acrylic: A fabric that is soft, doesn’t crease, dries quickly, but mainly, it is not enjoyable for moths.',
+            'Care instructions:',
+            'Do not dry in a dryer',
+
+            'Do not use bleach',
+            
+            'Dont clean chemically',
+            
+            'Dont iron',
+            
+            'Washable in a washing machine 30º',
+            
+            
+            'Details: Applique with logo',
+            
+            'Reference: AM176D',
+        ],
+    },
+    {
+        id: 'hat-2',
+        nameProduct: 'CAP NEW ERA NEW YORK KNICKS TEAM ARCH 9FIFTY SNAPBACK CAP',
+        category: 'HAT',
+        price: 33.95,
+        image: `http://localhost:8000/public/images/hat/product1.jpg `,
+        ratting: 3,
+        countOfRatting: 2,
+        to: '/product/hat-2',
+        features: [
+            'Composition: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',            
+            'Do not wash',
+            
+            
+            'Details: Embroidery on the front, Embroidery on the back, Výšivka s logem',
+            
+            'Reference: 60240387',
+        ],
+    },
+    {
+        id: 'VANS-X-ANDERSON-PAAK-CAP',
+        nameProduct: 'VANS X ANDERSON PAAK CAP',
+        category: 'HAT',
+        price: 23.5,
+        image: `http://localhost:8000/public/images/hat/product2.jpg `,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/VANS-X-ANDERSON-PAAK-CAP',
+        features: [
+            'Composition: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',
+            'Do not dry in a dryer',
+
+            'Do not use bleach',
+            
+            'Dont clean chemically',
+            
+            'Dont iron',
+            
+            'Do not wash',
+            
+            'Wipe with a damp cloth',
+            
+            'Details:  All over print, Applique with logo',
+            
+            'Reference: VN0A7PTXZC61',
+        ],
+    },
+    {
+        id: 'hat-4',
+        nameProduct: 'Men New York Yankees New Era Green Logo 59FIFTY Fitted Hat ',
+        category: 'HAT',
+        price: 41.96,
+        image: `http://localhost:8000/public/images/hat/product3.jpeg `,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/hat-4',
+        features: [
+            'Product ID: 4690365',
+            'Brand: New Era',
+            'Imported',
+            'Embroidered graphics with raised details',
+            'Six solid panels with eyelets',
+            'Gray undervisor',
+            'Material: 100% Polyester',
+            'Wipe clean with a damp cloth',
+            'Flat bill with ability to curve',
+            'Fitted',
+            'High Crown',
+            'Structured fit',
+            'Officially licensed',
+        ],
+    },
+    {
+        id: 'hat-5',
+        nameProduct: 'VANS STEP UP BUCKET HAT',
+        category: 'HAT',
+        price: 35.95,
+        image: `http://localhost:8000/public/images/hat/product4.jpeg `,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/hat-5',
+        features: [
+            'Composition: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',
+            'Do not dry in a dryer',
+
+            'Do not use bleach',
+            
+            'Dont clean chemically',
+            
+            'Dont iron',
+            
+            'Do not wash',
+            
+            'Wipe with a damp cloth',
+            
+            'Details: Applique with logo',
+            
+            'Reference: VN0A7RX4XZJ1',
+        ],
+    },
+    {
+        id: 'hat-6',
+        nameProduct: 'CAP NEW ERA LA DODGERS MLB WORLD SERIES TRAIL MIX 59FIFTY',
+        category: 'HAT',
+        price: 49.95,
+        image: `http://localhost:8000/public/images/hat/product5.jpeg `,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/hat-6',
+        features: [
+            'NEW ERA 59FIFTY',
+            'New Era 59Fifty caps have been an icon of sports and streetwear culture for decades. You dont just see them on athletes, they also have a deep connection to hip-hop. Rappers and artists have found in them a different way to express their individuality and personal style. Thanks to the customized cut, they fit everyone, including you. Just pick the team you are a fan of. Or pick a design you like. And if you dont know what size you need, check out the New Era cap size chart.',
+            'New Era 59Fifty produces licensed caps with team branding for the famous overseas competitions everyone has heard of - MLB, NFL and NBA. It all started in 1934 when the first official cap was designed for the MLB team, the Cleveland Indians. Since then, New Era has been fighting the biggest competition and now shares the official production for MLB with the Sport Specialties brand. Together they carry the label Diamond Collection.',
+            'Find your individual and personal style - wear the iconic New Era 59Fifty sports and streetwear cap.'
+        ],
+    },
+    {
+        id: 'new-hat-1',
+        nameProduct: 'CAP NEW ERA TORONTO BLUE JAYS WORLD SERIES 59FIFTY UNISEX CAP',
+        category: 'HAT',
+        price: 23.95,
+        image: `http://localhost:8000/public/images/hat/product6.jpeg `,
+        ratting: 4.8,
+        countOfRatting: 10,
+        to: '/product/new-hat-1',
+        features: [
+            'Composition: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',
+            'Do not wash',
+            
+            'Details: Embroidery on the front, Výšivka s logem',
+            'Fastening: fitted',
+            'Reference: 60240611',
+        ],
+    },
+    {
+        id: 'hat-7',
+        nameProduct: 'CAP ADIDAS CAP',
+        category: 'HAT',
+        price:  24.61,
+        image: `http://localhost:8000/public/images/hat/product7.jpeg`,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/hat-7',
+        features: [
+            'Stop and smell the flowers. We are celebrating spring vibes with this adidas cap. In collaboration with Disney, it features bright-eyed and curious Bambi. The pre-curved brim helps keep the sun out of your eyes, so you can enjoy all the new spring flowers on your walk. Made in part with recycled content generated from production waste, e.g. cutting scraps, and post-consumer household waste to avoid the larger environmental impact of producing virgin content.',
+            'Composition: 100% Recycled polyester',
+            'Care instructions:',
+            'Do not dry in a dryer',
+            'Washable in a washing machine 30º',
+            'Do not use bleach',  
+            'Dont clean chemically',
+            'Details:  Výšivka s logem',
+            'Reference:HF2539',
+        ],
+    },
+    {
+        id: 'hat-8',
+        nameProduct: 'HAT THE NORTH FACE FREEBEENIE',
+        category: 'HAT',
+        price:  25.46,
+        image: `http://localhost:8000/public/images/hat/product8.jpg`,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/hat-8',
+        features: [
+            'Composition: 100% Acrylic: A fabric that is soft, doesn’t crease, dries quickly, but mainly, it is not enjoyable for moths.',
+            'Care instructions:',
+            'Hand wash',
+            'Use only mild washing detergent',
+            'Do not use bleach',
+            
+            'Dont clean chemically',
+            
+            'Dont iron',
+            
+            'DETAILS:',
+            'Details: Applique with logo',
+            'Reference: NF0A3FGT78M1',
+        ],
+    },
+    {
+        id: 'hat-9',
+        nameProduct: 'HAT NEW ERA NEW YORK YANKEES BEANIE HAT',
+        category: 'HAT',
+        price:  28.95,
+        image: `http://localhost:8000/public/images/hat/product9.jpg`,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/hat-9',
+        features: [
+            'Stop and smell the flowers. We are celebrating spring vibes with this adidas cap. In collaboration with Disney, it features bright-eyed and curious Bambi. The pre-curved brim helps keep the sun out of your eyes, so you can enjoy all the new spring flowers on your walk. Made in part with recycled content generated from production waste, e.g. cutting scraps, and post-consumer household waste to avoid the larger environmental impact of producing virgin content.',
+            'Composition: 100% Acrylic: A fabric that is soft, doesn’t crease, dries quickly, but mainly, it is not enjoyable for moths.            ',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+
+            'Wash with the same colored laundry',
+            
+            'Do not use bleach',
+            
+            'Dont clean chemically',
+            
+            'Dont iron',
+            
+            'Dry in a tumble dryer to a slight degree',
+            'Details:  Embroidery on the front',
+            'Reference:60285000',
+        ],
+    },
+    {
+        id: 'hat-10',
+        nameProduct: 'CAP COLUMBIA™ FLAT BRIM SNAPBACK',
+        category: 'HAT',
+        price:  24.95,
+        image: `http://localhost:8000/public/images/hat/product10.jpg`,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/hat-7',
+        features: [
+            'Composition:',
+            '100% Cotton: A very soft and pleasant material whose properties include tensile strength and elongation at break.',
+            '100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',
+            'Do not dry in a dryer',
+            'Hand wash',
+
+            'Do not use bleach',
+            
+           'Dont iron',
+            
+            'Wipe with a damp cloth',
+            'Details:  Applique with logo, Výšivka s logem',
+            'Reference:2032021464',
+        ],
+    },
+    {
+        id: 'hat-11',
+        nameProduct: 'ADIDAS X SEAN WOTHERSPOON X HOT WHEELS',
+        category: 'HAT',
+        price:  33.95,
+        image: `http://localhost:8000/public/images/hat/product11.jpg`,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/hat-11',
+        features: [
+            'The collaboration between adidas and one of the most famous sneaker designers, Sean Wotherspoon, started back in 2020. Since then, they have created sneakers with the iconic uncut lace design or a collection of clothing, including sweatshirts, T-shirts, jackets, vests, and trousers. And because we all care about our planet, adidas and Sean Wotherspoon built the entire collection with ecology and sustainability in mind. That is why all the products are made from recycled and sustainable materials. The vintage design of the sneakers features bold colors and mixes different materials, and is complemented by playful details. Treat yourself to some sneakers and clothes from the adidas x Sean Wotherspoon collaboration and show that you care about nature.',            
+            'Composition: 100% Cotton',
+            'Care instructions:',
+            'Do not dry in a dryer',
+
+            'Washable in a washing machine 30º',
+            
+            'Do not use fabric softener',
+            
+            'Use only mild washing detergent',
+            
+            'Wash with the same colored laundry',
+            
+            'Do not use bleach',
+            
+            'Dont clean chemically',
+            
+            'Dont iron',
+            'Details:  Embroidery on the front, Embroidery on the back, Applique with logo, Výšivka s logem',
+            'Reference:HT6534',
+        ],
+    },
+    /*------------------------------------------------------------ Giày----------------------------------------------- */
+    /*------------------------------------------------------------ Giày----------------------------------------------- */
+    {
+        id: 'vans-1',
+        nameProduct: 'VANS X STRANGER THINGS AUTHENTIC',
+        category: "SHOES-VANS",
+        price: 82.95,
+        priceOld: 85.95,
+        imageHover: 'http://localhost:8000/public/images/shoe/vans/vans1-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/vans/vans1.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/vans-1',
+        features: [
+            'VANS X STRANGER THINGS',
+            'This is not a collection from our world. This one came from the other side. But whatever you want to call this darkness, it has a way with sneaker and clothing design. The result of the collaboration is the Vans x Stranger Things Style 36 sneakers, which are the original OG version of the now highly popular Vans Old Skool, accompanied by the Vans Sk8-Hi and Vans Authentic. Theres also an extensive clothing collection that these sneakers will match perfectly. And remember, friends dont lie.',
+        ],
+    },
+    {
+        id: 'vans-2',
+        nameProduct: 'VANS SK8-HI MTE-2',
+        category: "SHOES-VANS",
+        price: 86.07,
+        priceOld: 122.95,
+        imageHover: 'http://localhost:8000/public/images/shoe/vans/vans2-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/vans/vans2.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/vans-2',
+        features: [
+            'VANS SK8-HI MTE',
+            'Vans Sk8-Hi MTE are high ankle boots based on the classic Old Skool shoes. They are the perfect shoes for inclement weather. They feature the highest quality premium upper materials as they are designed to keep the feet warm and dry. The rubber soles feature a waffle pattern for durability and comfortable walking.',
+        ],
+    },
+    {
+        id: 'vans-3',
+        nameProduct: 'VANS SK8-HI',
+        category: "SHOES-VANS",
+        price: 79.95,
+        priceOld: 89.95,
+        imageHover: 'http://localhost:8000/public/images/shoe/vans/vans3-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/vans/vans3.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/vans-3',
+        features: [
+            'VANS SK8-HI',
+            'It all began in 1978, when Paul Van Doren wanted to create a similar model to the iconic #36, known today as Vans Old Skool. His goal was to design a functional and high-top shoe that will suit all skateboarders and that will provide a whole new point of view. He succeeded and introduced a new model #38, known as Vans Sk8-Hi, which celebrates its 40th birthday this year! Of course he didn´t forget the legendary sidestripe. Celebrate with us and we´ll leave it to you to pick your style.',
+        ],
+    },
+    {
+        id: 'vans-4',
+        nameProduct: 'VANS ULTRARANGE EXO HI MTE-1',
+        category: "SHOES-VANS",
+        price: 132.95,
+        priceOld: 135.55,
+        imageHover: 'http://localhost:8000/public/images/shoe/vans/vans4-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/vans/vans4.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/vans-4',
+        features: [
+            'MATERIALS',
+            
+            'Suede: leather cut from the back, while the fibers remain on the surface, suede is less prone to damage than nubuck.',
+            
+            'Synthetics: unlike textile, synthetic fibers are stronger, more durable and quick-drying.',
+            
+            'Sole',
+            'Rubber: a material that is very easy to maintain and you will appreciate it especially in rainy weather.',
+        ],
+    },
+    {
+        id: 'nike-1',
+        nameProduct: 'NIKE W AIR MAX 95',
+        category: "SHOES-NIKE",
+        price: 134.95,
+        priceOld: 139.25,
+        imageHover: 'http://localhost:8000/public/images/shoe/nike/nike1-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/nike/nike1.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/nike-1',
+        features: [
+            'MATERIALS',
+            
+            'Suede: leather cut from the back, while the fibers remain on the surface, suede is less prone to damage than nubuck.',
+            
+            'Synthetics: unlike textile, synthetic fibers are stronger, more durable and quick-drying.',
+            
+            'Sole:',
+            'Rubber: a material that is very easy to maintain and you will appreciate it especially in rainy weather.',
+        ],
+    },
+    {
+        id: 'nike-2',
+        nameProduct: 'NIKE AIR FORCE 1 MID 07 LX',
+        category: "SHOES-NIKE",
+        price: 127.95,
+        priceOld: 135.55,
+        imageHover: 'http://localhost:8000/public/images/shoe/nike/nike2-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/nike/nike2.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/nike-2',
+        features: [
+            'NIKE AIR FORCE 1 MID ´07',
+            'Named after the personal aircraft of the President of the United States, the Air Force One has been a mainstay on the Nike roster. They are among the longest-produced sneakers of all time and are one of the most popular Nike shoes off all time. The AF 1 Mids come in a variety of different and striking colourways perfect for all tastes.',
+        ],
+    },
+    {
+        id: 'nike-3',
+        nameProduct: 'NIKE ACG MOUNTAIN FLY LOW GORE-TEX SE',
+        category: "SHOES-NIKE",
+        price: 174.95,
+        priceOld: 195.55,
+        imageHover: 'http://localhost:8000/public/images/shoe/nike/nike3-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/nike/nike3.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/nike-3',
+        features: [
+            'NIKE ACG',
+            'Ever thought of what ACG means? All Conditions Gear is the correct answer, and this gear really is ready for all conditions. The first Nike ACG pieces were first available for purchase in 1989. ACG has built its image in the industry through an unobtrusive presentation because Nike believed that ACGs actions will speak for themselves. In its history, thousands of people all over the world have fallen in love with the ACG brand, their indestructible sneakers, apparel, and accessories.', 
+        ],
+    },
+    {
+        id: 'nike-4',
+        nameProduct: 'NIKE ACG AIR ZOOM GAIADOME GORE-TEX',
+        category: "SHOES-NIKE",
+        price: 182.71,
+        priceOld: 185.55,
+        imageHover: 'http://localhost:8000/public/images/shoe/nike/nike4-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/nike/nike4.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/nike-4',
+        features: [
+            'NIKE ACG',
+            'Ever thought of what ACG means? All Conditions Gear is the correct answer, and this gear really is ready for all conditions. The first Nike ACG pieces were first available for purchase in 1989. ACG has built its image in the industry through an unobtrusive presentation because Nike believed that ACGs actions will speak for themselves. In its history, thousands of people all over the world have fallen in love with the ACG brand, their indestructible sneakers, apparel, and accessories.', 
+        ],
+    },
+    {
+        id: 'adidas-1',
+        nameProduct: 'ADIDAS HYPERTURF',
+        category: "SHOES-ADIDAS",
+        price: 84.96,
+        imageHover: 'http://localhost:8000/public/images/shoe/adidas/adidas1-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/adidas/adidas1.jpg`,
+        ratting: 5,
+        countOfRatting: 100,
+        to: '/product/adidas-1',
+        features: [
+            'ADIDAS HYPERTURF',
+            'Created in the spirit of modern outdoor aesthetics with an emphasis on function. The adidas Hyperturf sneakers are durable trail shoes with a sole providing perfect traction on a wide range of challenging surfaces. Go on an adventure without fear of failure and experience the comfort and performance of the adidas Hyperturf.',
+        ],
+    },
+    {
+        id: 'adidas-2',
+        nameProduct: 'ADIDAS ADI2000',
+        category: "SHOES-ADIDAS",
+        price: 72.21,
+        imageHover: 'http://localhost:8000/public/images/shoe/adidas/adidas2-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/adidas/adidas2.jpg`,
+        ratting: 5,
+        countOfRatting: 100,
+        to: '/product/adidas-2',
+        features: [
+            'ADIDAS ADI2000',
+            'Take a step towards nostalgia. The adidas ADI2000 sneaker takes skate silhouettes from the early millennium and wraps them in the spirit of digital modernity defined by alternate worlds and gaming consoles. But the ADI2000 doesnt look at this trend pejoratively; instead, it takes the best of it, while its uppers and materials stay true to the look of its predecessors.',
+        ],
+    },
+    {
+        id: 'adidas-3',
+        nameProduct: 'ADIDAS SUPERSTAR W',
+        category: "SHOES-ADIDAS",
+        price: 85,
+        imageHover: 'http://localhost:8000/public/images/shoe/adidas/adidas3-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/adidas/adidas3.jpg`,
+        ratting: 5,
+        countOfRatting: 100,
+        to: '/product/adidas-3',
+        features: [
+            'ADIDAS SUPERSTAR',
+            'They’re almost everywhere, but not everyone sees the rich history behind the adidas Superstar sneakers when they look at them. The adidas Superstar sneakers are a cult silhouette with a long tradition. And it’s not just some cliché in this case.',
+        ],
+    },
+    {
+        id: 'adidas-4',
+        nameProduct: 'ADIDAS FORUM MID',
+        category: "SHOES-ADIDAS",
+        price: 109.95,
+        imageHover: 'http://localhost:8000/public/images/shoe/adidas/adidas4-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/adidas/adidas4.jpg`,
+        ratting: 5,
+        countOfRatting: 100,
+        to: '/product/adidas-4',
+        features: [
+            'ADIDAS FORUM MID',
+            'Thankfully, the world has lost the releases of the adidas Forum for just a few years. Symbolized by the clean adidas aesthetic, the three contrasting stripes on the side, and the iconic pull-on strap. Now the model is back, and it comes in three versions straight up. In addition to the MID variant, which reaches to the ankle and is perfect for autumn, you can also choose from the higher HI option or the lower one called LOW. So discover this classic and bring a piece of mid history into your shoe closet.',
+        ],
+    },
+    {
+        id: 'mlb-1',
+        nameProduct: 'Bigball CHUNKY A Gradation Classic Monogram NEW YORK YANKEES',
+        category: "SHOES-mlb",
+        price: 118,
+        imageHover: 'http://localhost:8000/public/images/shoe/mlb/mlb1-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/mlb/mlb1.jpg`,
+        ratting: 4.8,
+        countOfRatting: 282,
+        to: '/product/mlb-1',
+        features: [
+            'Fashionable high heel sneakers',
+            'MLB Baseball Association Inspired Design',
+            'Resonance with sharp baseball logo lettering detail',
+            'Combination of high quality leather with breathable mesh upper',
+            'Soft lining, lifting foot shape',
+            'Modern colors easily coordinate with many outfits and accessories',
+            'Brand Origin: Korea',
+        ],
+    },
+    {
+        id: 'mlb-2',
+        nameProduct: 'CHUNKY Runner Boston Red Sox ',
+        category: "SHOES-mlb",
+        price: 118,
+        imageHover: 'http://localhost:8000/public/images/shoe/mlb/mlb2-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/mlb/mlb2.jpg`,
+        ratting: 4.8,
+        countOfRatting: 282,
+        to: '/product/mlb-2',
+        features: [
+            'Fashionable high heel sneakers',
+            'MLB Baseball Association Inspired Design',
+            'Resonance with sharp baseball logo lettering detail',
+            'Combination of high quality leather with breathable mesh upper',
+            'Soft lining, lifting foot shape',
+            'Modern colors easily coordinate with many outfits and accessories',
+            'Brand Origin: Korea',
+        ],
+    },
+    {
+        id: 'mlb-3',
+        nameProduct: 'CHUNKY Liner Mid Classic Monogram NEW YORK YANKEES ',
+        category: "SHOES-mlb",
+        price: 125,
+        imageHover: 'http://localhost:8000/public/images/shoe/mlb/mlb3-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/mlb/mlb3.jpg`,
+        ratting: 4.8,
+        countOfRatting: 282,
+        to: '/product/mlb-3',
+        features: [
+            'Fashionable high heel sneakers',
+            'MLB Baseball Association Inspired Design',
+            'Resonance with sharp baseball logo lettering detail',
+            'Combination of high quality leather with breathable mesh upper',
+            'Soft lining, lifting foot shape',
+            'Modern colors easily coordinate with many outfits and accessories',
+            'Brand Origin: Korea',
+        ],
+    },
+    {
+        id: 'mlb-4',
+        nameProduct: 'CHUNKY Liner Mid Classic Monogram Los Angeles Dodgers',
+        category: "SHOES-mlb",
+        price: 125,
+        imageHover: 'http://localhost:8000/public/images/shoe/mlb/mlb4-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/mlb/mlb4.jpg`,
+        ratting: 4.8,
+        countOfRatting: 282,
+        to: '/product/mlb-4',
+        features: [
+            'Fashionable high heel sneakers',
+            'MLB Baseball Association Inspired Design',
+            'Resonance with sharp baseball logo lettering detail',
+            'Combination of high quality leather with breathable mesh upper',
+            'Soft lining, lifting foot shape',
+            'Modern colors easily coordinate with many outfits and accessories',
+            'Brand Origin: Korea',
+        ],
+    },
+    {
+        id: 'converse-1',
+        nameProduct: 'CONVERSE RUN STAR HIKE',
+        category: "SHOES-converse",
+        price: 74.97,
+        imageHover: 'http://localhost:8000/public/images/shoe/converse/converse1-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/converse/converse1.jpg`,
+        ratting: 4.8,
+        countOfRatting: 282,
+        to: '/product/converse-1',
+        features: [
+            'CONVERSE RUN STAR HIKE',
+            'Even sneakers can have their own opinion, and Converse Run Star Hike is clear proof of that. This silhouette combines a classic in the form of the iconic Chuck Taylor model with the futuristic atmosphere of jagged rubber sole, and thus steals all the attention wherever you decide to take them. Maybe Run Star Hike wasnt love at first sight, but trust us, if you take a closer look, you will know why they should be part of your footwear collection. Taylor elements will ensure that the sneakers will fit any outfit and the unique platform will not only add height, optically lengthen and slim your legs, but your fashion rating will also get knocked up a notch. If you are looking for unique sneakers that you don’t see around every street corner, you want to express your opinion with them and just get noticed, go for the Run Star Hike model.',
+            
+        ],
+    },
+    {
+        id: 'converse-2',
+        nameProduct: 'CONVERSE ALL STARS HI TOP MENS TRAINERS',
+        category: "SHOES-converse",
+        price: 70.78,
+        imageHover: 'http://localhost:8000/public/images/shoe/converse/converse2-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/converse/converse2.jpg`,
+        ratting: 4.8,
+        countOfRatting: 282,
+        to: '/product/converse-2',
+        features: [
+            'CONVERSE ALL STAR',
+            'The Converse shoe design has remained virtually untouched since its launch. The popularity of the shoe has stayed high and is informally known as the king of the canvas shoes. What sets them apart from the others is the stronger, more resilient sole which does not lose comfort or add weight to the shoe. They come in multiple colourways and different patterns.',
+        ],
+    },
+    {
+        id: 'converse-3',
+        nameProduct: 'CONVERSE X PATTA CHUCK 70',
+        category: "SHOES-converse",
+        price: 92.95,
+        imageHover: 'http://localhost:8000/public/images/shoe/converse/converse3-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/converse/converse3.jpg`,
+        ratting: 4.8,
+        countOfRatting: 282,
+        to: '/product/converse-3',
+        features: [
+            'CONVERSE CHUCK TAYLOR 70S',
+            'Many of us love the canvas Chuck Taylors for their vintage look. You probably won´t find other sneakers with longer history and stronger roots than Converse shoes. The new collection by Converse called Chuck ´70 was introduced not just for vintage lovers. It is different from the classic collection by the stitching on the side of the silhouette and cream sole with a black line that is a little higher than usual and that perfectly underlines the retro feel. At the same time, the sneakers have a new breathable insole that will provide comfort even on a day-trip.',
+        ],
+    },
+    {
+        id: 'converse-4',
+        nameProduct: 'CONVERSE X GOLF WANG CHUCK 70 OX "OWL CAMO"',
+        category: "SHOES-converse",
+        price: 82.95,
+        imageHover: 'http://localhost:8000/public/images/shoe/converse/converse4-hover.jpg',
+        image: `http://localhost:8000/public/images/shoe/converse/converse4.jpg`,
+        ratting: 4.8,
+        countOfRatting: 282,
+        to: '/product/converse-4',
+        features: [
+            'CONVERSE X GOLF WANG',
+            'Its not for nothing that they say the only person as stylish as Tyler The Creator is his girlfriend. After all, Tyler and his Golf Wang have long been pushing the boundaries of the industry they created. An industry that can simply be called pure and classy extravagance. The platform for the realization of his original pieces was provided by Converse, with whom he has already released several collaborations, whose starting model is the premium classic Chuck 70. So discover the Converse x Golf Wang collaboration and enrich your piece with part of the soul of an artist who is a cultural hero for his generation.',
+        ],
+    },
+    /*------------------------------------------------------------ T-shirt----------------------------------------------- */
+    /*------------------------------------------------------------ T-shirt----------------------------------------------- */
+    {
+        id: 'tshirt-1',
+        nameProduct: 'Active V2 Mens Sports T-shirt',
+        category: "SHIRT-tshirt",
+        price: 20.55,
+        priceOld: 25.99,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product25-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product25.jpg`,
+        ratting: 1,
+        countOfRatting: 2,
+        to: '/product/tshirt-1',
+        features: [
+            'Should be washed with cold water below 40 degrees and absolutely should not be washed with hot water, which will stretch the fabric and stretch the shirt.',
+            'The surface of the shirt should not be directly exposed to the sun and should be used with a hanger to avoid wrinkles of the sports T-shirt.',
+            'T-shirts should not be left in humid places, with good hygroscopic and water-absorbing properties, T-shirts are prone to mold, even leaving stains on the fabric. See more details on how to preserve t-shirts.',
+        ],
+    },
+    {
+        id: 'tshirt-2',
+        nameProduct: 'The Silly Swallow',
+        category: "SHIRT-tshirt",
+        price: 10.55,
+        priceOld: 13.55,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product26-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product26.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-2',
+        features: [
+            'Inspired by the fictional character En by author Tran Tuan Dung, Coolmate collaborated with En to create an extremely limited collection, the Tet edition En t-shirt. UNIQUE - FUN - PERSONALITY is the criteria of the collection. Each design in the collection is created by the author himself so that the wearer can feel his own quality when wearing the Swallow T-shirt.',
+        ],
+    },
+    {
+        id: 'tshirt-3',
+        nameProduct: 'Recycle Active V2',
+        category: "SHIRT-tshirt",
+        price: 159000,
+        priceOld: 299000,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product27-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product27.jpg`,
+        ratting: 5,
+        countOfRatting: 2,
+        to: '/product/tshirt-3',
+        features: [
+            'Material: 100% Recycle Polyester with 140gsm ultra-lightweight fabric',
+            'Suitable for: playing sports',
+            'Style: sports t-shirt that fits Vietnamese men',
+            'Applied Technology: Wicking (breathable) & Quick-Dry (Quick-Dry)',
+            'The worlds leading fabric supplier in the field of sportswear: Promax',
+            'Proudly sewing and finishing at Nobland factory, Binh Duong',
+        ],
+    },
+    {
+        id: 'tshirt-4',
+        nameProduct: 'Marvel Avengers Logo Basics - Cacao',
+        category: "SHIRT-tshirt",
+        price: 299000,
+        priceOld: 299000,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product28-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product28.jpg`,
+        ratting: 5,
+        countOfRatting: 3,
+        to: '/product/tshirt-4',
+        features: [
+             'Material: 80% Cotton - 20% Recycle Polyester, 4-way stretch',
+             'Is a product of the cooperation between Coolmate and Disney - the owner of the Marvel copyright',
+             'Suitable for: work, go out, stay at home',
+             'Style: regular fit',
+             'Proudly made in Vietnam',
+        ],
+    },
+    {
+        id: 'tshirt-5',
+        nameProduct: 'Graphic Avenger - ASSEMBLE',
+        category: "SHIRT-tshirt",
+        price: 10.55,
+        priceOld: 13.55,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product29-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product29.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-2',
+        features: [
+            'Care instructions:',
+            'Should be washed with cold water below 40 degrees and absolutely should not be washed with hot water, which will stretch the fabric and loosen the shirt.',
+
+            'Do not wash clothes immediately after receiving. In particular, in the first time washing the shirt, please hand wash and wash with cold water or less soap, do not wash in the washing machine in the first wash.',
+        ],
+    },
+    {
+        id: 'tshirt-6',
+        nameProduct: 'Graphic Avenger - ASSEMBLE',
+        category: "SHIRT-tshirt",
+        price: 10.55,
+        priceOld: 13.55,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product30-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product30.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-6',
+        features: [
+            'Care instructions:',
+            'Should be washed with cold water below 40 degrees and absolutely should not be washed with hot water, which will stretch the fabric and loosen the shirt.',
+
+            'Do not wash clothes immediately after receiving. In particular, in the first time washing the shirt, please hand wash and wash with cold water or less soap, do not wash in the washing machine in the first wash.',
+        ],
+    },
+    {
+        id: 'tshirt-7',
+        nameProduct: 'Cotton 200gsm in Coolmate',
+        category: "SHIRT-tshirt",
+        price: 10.20,
+        priceOld: 12.55,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product31-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product31.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-7',
+        features: [
+            'Care instructions:',
+            'Should be washed with cold water below 40 degrees and absolutely should not be washed with hot water, which will stretch the fabric and stretch the shirt.',
+            'The surface of the shirt should not be directly exposed to the sun and should be used with a hanger to avoid wrinkles for mens T-shirts.',
+            'T-shirts should not be left in humid places, with good hygroscopic and water-absorbing properties, T-shirts are prone to mold, even leaving stains on the fabric. See more details on how to preserve t-shirts.',
+        ],
+    },
+    {
+        id: 'tshirt-8',
+        nameProduct: 'Heal The World Clean Vietnam',
+        category: "SHIRT-tshirt",
+        price: 13.55,
+        priceOld: 18.10,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product32-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product32.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-8',
+        features: [
+            'Care instructions:',
+            'Wash colored and white shirts separately to avoid fading of white shirts',
+            'T-shirts should be washed in cold or warm water below 40 degrees Celsius',
+            'Do not use bleach or detergent with high bleach',
+            'T-shirts should not be left in humid places, with good hygroscopic and water-absorbing properties, T-shirts are prone to mold, even leaving stains on the fabric. See more details on how to preserve t-shirts',
+        ],
+    },
+    {
+        id: 'tshirt-9',
+        nameProduct: 'Marvel "Bring The Thunder"',
+        category: "SHIRT-tshirt",
+        price: 10.55,
+        priceOld: 13.55,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product33-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product33.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-9',
+        features: [
+            'With a youthful and dynamic mens t-shirt design, Coolmate t-shirts deserve to be the most basic shirts when you dont know what to wear.',
+
+            'Double seams at the shoulders help the shirt keep its shape and always create durability in many washes. Sewn in the direction of a basic round neck cotton mens t-shirt, easy to coordinate for guys who like simplicity.',
+            'Care instructions:',
+            'Wash colored and white shirts separately to avoid fading of white shirts',
+            'T-shirts should be washed in cold or warm water below 40 degrees Celsius',
+            'Do not use bleach or detergent with high bleach',
+            'T-shirts should not be left in humid places, with good hygroscopic and water-absorbing properties, T-shirts are prone to mold, even leaving stains on the fabric. See more details on how to preserve t-shirts',
+        ],
+    },
+    {
+        id: 'tshirt-10',
+        nameProduct: 'The Future Is Yours Clean Vietnam',
+        category: "SHIRT-tshirt",
+        price: 13.55,
+        priceOld: 15.55,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product34-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product34.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-10',
+        features: [
+            'Coolmate released only the blue color true to the project name "Clean Vietnam". Because of the basic color, it is easy to mix clothes, you can mix with all different types of pants.',
+
+            'You want to be polite when going to work or going out, mix a Coolmate t-shirt with jeans or jogger pants.',
+            
+            'When at home, you want to be comfortable with daily activities, mix with shorts.',
+            'Care instructions:',
+            'Wash colored and white shirts separately to avoid fading of white shirts',
+            'T-shirts should be washed in cold or warm water below 40 degrees Celsius',
+            'Do not use bleach or detergent with high bleach',
+            'T-shirts should not be left in humid places, with good hygroscopic and water-absorbing properties, T-shirts are prone to mold, even leaving stains on the fabric. See more details on how to preserve t-shirts',
+        ],
+    },
+    {
+        id: 'tshirt-11',
+        nameProduct: 'oversize Én Pixel',
+        category: "SHIRT-tshirt",
+        price: 10.55,
+        priceOld: 13.55,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product35-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product35.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-11',
+        features: [
+            'Inspired by the fictional character En by author Tran Tuan Dung, Coolmate collaborated with En to create an extremely limited collection, the Tet edition En t-shirt. UNIQUE - FUN - PERSONALITY is the criteria of the collection. Each design in the collection is created by the author himself so that the wearer can feel his own quality when wearing the Swallow T-shirt.',
+            'Care instructions:',
+            'Wash colored and white shirts separately to avoid fading of white shirts',
+            'T-shirts should be washed in cold or warm water below 40 degrees Celsius',
+            'T-shirts should not be left in humid places, with good hygroscopic and water-absorbing properties, T-shirts are prone to mold, even leaving stains on the fabric. See more details on how to preserve t-shirts',
+        ],
+    },
+    {
+        id: 'tshirt-12',
+        nameProduct: 'Peace Clean Vietnam',
+        category: "SHIRT-tshirt",
+        price: 10.55,
+        priceOld: 13.55,
+        imageHover: 'http://localhost:8000/public/images/t-shirt/product36-hover.jpg',
+        image: `http://localhost:8000/public/images/t-shirt/product36.jpg`,
+        ratting: 2,
+        countOfRatting: 3,
+        to: '/product/tshirt-12',
+        features: [
+            'These are t-shirts printed in Coolmates Clean Vietnam project made from Cotton combined with Polyester material recycled from plastic bottles.',
+            'Care instructions:',
+            'Wash colored and white shirts separately to avoid fading of white shirts',
+            'T-shirts should be washed in cold or warm water below 40 degrees Celsius',
+            'Do not use bleach or detergent with high bleach',
+            'T-shirts should not be left in humid places, with good hygroscopic and water-absorbing properties, T-shirts are prone to mold, even leaving stains on the fabric. See more details on how to preserve t-shirts',
+        ],
+    },
+    /*------------------------------------------------------------ Shirt----------------------------------------------- */
+    /*------------------------------------------------------------ Shirt----------------------------------------------- */
+    {
+        id: 'shirt-1',
+        nameProduct: 'Café-DriS mens long-sleeved shirt ',
+        category: "SHIRT-shirt",
+        price: 14.50,
+        priceOld: 17.25,
+        imageHover: 'http://localhost:8000/public/images/shirt/product29-hover.jpg',
+        image: `http://localhost:8000/public/images/shirt/product29.jpg`,
+        ratting: 4.9,
+        countOfRatting: 160,
+        to: '/product/shirt-1',
+        features: [
+             'Material: 50% Café - 50% Recycled Poly from PET provides softness and effective deodorization',
+             'Suitable for: work, go out',
+             'Style: regular fit',
+             'Proudly made in Vietnam',
+        ],
+    },
+    {
+        id: 'shirt-2',
+        nameProduct: 'Excool Limited ',
+        category: "SHIRT-shirt",
+        price: 15.65,
+        priceOld: 21.65,
+        imageHover: 'http://localhost:8000/public/images/shirt/product30-hover.jpg',
+        image: `http://localhost:8000/public/images/shirt/product30.jpg`,
+        ratting: 4.5,
+        countOfRatting: 17,
+        to: '/product/shirt-2',
+        features: [
+             'Material: 53% Polyester PET high stretch + 47% Polyester PTT Sorona',
+             'Suitable for: going out, going to work, participating in polite activities',
+             'Style: regular fit',
+             'This is the first Japanese style shirt at Coolmate',
+             'Proudly sewing and finishing at Nobland factory, Binh Duong',
+        ],
+    },
+    {
+        id: 'shirt-3',
+        nameProduct: 'ASM1307 shirt ',
+        category: "SHIRT-shirt",
+        price: 3250,
+        priceOld: 3350,
+        imageHover: 'http://localhost:8000/public/images/shirt/product1-hover.jpg',
+        image: `http://localhost:8000/public/images/shirt/product1.jpg`,
+        ratting: 4.9,
+        countOfRatting: 160,
+        to: '/product/shirt-3',
+        features: [
+            'Burberry is a fashion brand from the UK and famous all over the world. This brand has contributed to making Britain become one of the four largest fashion capitals on the planet. Those are 4 capitals: London, Paris, Milan and New York.',
+        ],
+    },
+    {
+        id: 'shirt-4',
+        nameProduct: 'ASM1307 shirt',
+        category: "SHIRT-shirt",
+        price: 12.22,
+        priceOld: 15.50,
+        imageHover: 'http://localhost:8000/public/images/shirt/product2-hover.jpg',
+        image: `http://localhost:8000/public/images/shirt/product2.jpg`,
+        ratting: 4.5,
+        countOfRatting: 17,
+        to: '/product/shirt-4',
+        features: [
+            'Form: Regular',
+            'Material: 97% cotton, 3% spandex.',
+            'Form: Regular',
+            'Advantages: Shirt with a dynamic and youthful pocket print design, spandex makes the shirt elastic, absorbent and breathable.',
+            'The regular shape also helps to add convenience and dynamism to your outfit anytime, anywhere.',
+            'Proud of Vietnamese products',
+        ],
+    },
+        {
+        id: 'shirt-5',
+        nameProduct: 'ASM011 shirt',
+        category: "SHIRT-shirt",
+        price: 12.55,
+        priceOld: 14.23,
+        imageHover: 'http://localhost:8000/public/images/shirt/product3-hover.png',
+        image: `http://localhost:8000/public/images/shirt/product3.jpg`,
+        ratting: 4.5,
+        countOfRatting: 17,
+        to: '/product/shirt-5',
+        features: [
+            'Characteristic:',
+            'Less wrinkle, cool, high color fastness',
+            'The old leader creates a youthful and modern style,',
+            'Design with vertical stripes to make the figure more tall, the form is loose on the clothes for a better fit.',
+            'User manual:',
+            'Wash at normal temperature.',
+            'Do not use bleach or iron at an appropriate temperature.',
+            'Limit the use of the dryer.',
+        ],
+    },
+    {
+        id: 'shirt-6',
+        nameProduct: 'MONOGRAM SHIRT SGS x CLOWNZ',
+        category: "SHIRT-shirt",
+        price: 22.55,
+        priceOld: 25.23,
+        imageHover: 'http://localhost:8000/public/images/shirt/product4-hover.jpg',
+        image: `http://localhost:8000/public/images/shirt/product4.jpg`,
+        ratting: 4.5,
+        countOfRatting: 17,
+        to: '/product/shirt-6',
+        features: [
+            'MONOGRAM SHIRT SGS x CLOWNZ',
+        ],
+    },
+    /*------------------------------------------------------------Polo----------------------------------------------- */
+    /*------------------------------------------------------------Polo----------------------------------------------- */
+    {
+        id: 'polo-shirt-1',
+        nameProduct: 'Polo Café',
+        category: "SHIRT-polo",
+        price: 14.50,
+        priceOld: 18.60,
+        imageHover: 'http://localhost:8000/public/images/polo/product33-hover.jpg',
+        image: `http://localhost:8000/public/images/polo/product33.jpg`,
+        ratting: 4.9,
+        countOfRatting: 95,
+        to: '/product/polo-shirt-1',
+        features: [
+            'Material: 50% S.Café + 50% Recycled PET',
+            'Hydroponic technology increases the ability to evaporate water from the fabric, helping to dry quickly',
+            'Suitable for: work, go out',
+            'Style: Regular fit, loose shape',
+            'The neckline uses Hightwisted 45D/75D yarn for stretchy and durable form',
+            'Model: 186 cm - 72 kg, wearing size XL',
+            'Proudly made in Vietnam',
+        ],
+    },
+    {
+        id: 'polo-shirt-2',
+        nameProduct: 'Polo Café',
+        category: "SHIRT-polo",
+        price: 13.20,
+        imageHover: 'http://localhost:8000/public/images/polo/product34-hover.jpg',
+        image: `http://localhost:8000/public/images/polo/product34.jpg`,
+        ratting: 4.9,
+        countOfRatting: 95,
+        to: '/product/polo-shirt-2',
+        features: [
+            'Material: 50% S.Café + 50% Recycled PET',
+            'Hydroponic technology increases the ability to evaporate water from the fabric, helping to dry quickly',
+            'Suitable for: work, go out',
+            'Style: Regular fit, loose shape',
+            'The neckline uses Hightwisted 45D/75D yarn for stretchy and durable form',
+            'Model: 186 cm - 72 kg, wearing size XL',
+            'Proudly made in Vietnam',
+        ],
+    },
+    {
+        id: 'polo-shirt-3',
+        nameProduct: 'Polo Excool',
+        category: "SHIRT-polo",
+        price: 17.50,
+        imageHover: 'http://localhost:8000/public/images/polo/product35-hover.jpg',
+        image: `http://localhost:8000/public/images/polo/product35.jpg`,
+        ratting: 4.9,
+        countOfRatting: 95,
+        to: '/product/polo-shirt-3',
+        features: [
+            'Material: 56% Polyester PET + 44% Polyester PTT Sorona',
+            'Suitable for: work, go out, wear at home',
+            'Direct production in District 12, Ho Chi Minh, Vietnam',
+            'Model: 1m77 - 74kg; wear size XL',
+            'Proudly made in Vietnam',
+        ],
+    },
+    {
+        id: 'polo-shirt-4',
+        nameProduct: '7APCB002TTT Polo',
+        category: "SHIRT-polo",
+        price: 20.05,
+        imageHover: 'http://localhost:8000/public/images/polo/product36-hover.jpg',
+        image: `http://localhost:8000/public/images/polo/product36.jpg`,
+        ratting: 4.9,
+        countOfRatting: 95,
+        to: '/product/polo-shirt-4',
+        features: [
+            'Material: 73% Cotton, 27% Polyester',
+        ],
+    },
+    {
+        id: 'polo-shirt-5',
+        nameProduct: 'Modern Plaid Mens Polo Shirt with Color Coordinator',
+        category: "SHIRT-polo",
+        price: 13.75,
+        imageHover: 'http://localhost:8000/public/images/polo/product37-hover.jpg',
+        image: `http://localhost:8000/public/images/polo/product37.jpg`,
+        ratting: 4.9,
+        countOfRatting: 95,
+        to: '/product/polo-shirt-5',
+        features: [
+            'Mens high quality birds eye polo shirt with 49% Cotton, 47% Polyester, 4% Spandex',
+            'Youthful, modern design with polite pattern',
+            'Moderate hugging shape suitable for all body shapes',
+            'The shirt can be worn to work, to go out, to walk around',
+            'Combine with casual pants, jeans, shorts, ... in many different styles and situations',
+            'YODY - Look good. Feel good.',
+        ],
+    },
+    /*------------------------------------------------------------Sport----------------------------------------------- */
+    /*------------------------------------------------------------Sport----------------------------------------------- */
+    {
+        id: 'sport-shirt-1',
+        nameProduct: 'Breathable Men Sports Tank Top',
+        category: "SHIRT-sport",
+        price: 99000,
+        imageHover: 'http://localhost:8000/public/images/sport/product1-hover.jpg',
+        image: `http://localhost:8000/public/images/sport/product1.jpg`,
+        ratting: 4.5,
+        countOfRatting: 209,
+        to: '/product/sport-shirt-1',
+        features: [
+            'Material: 100% Polyester with Quick Dry feature',
+            'New Twill (cross) weave for comfortable wearing',
+            'Suitable for: going out, going to work, wearing at home',
+            'Style: regular fit',
+            'Proudly made in Vietnam',
+        ],
+    },
+    {
+        id: 'sport-shirt-2',
+        nameProduct: 'T-SHIRT NIKE X NOCTA NRG LU JERSEY HOME',
+        category: "SHIRT-sport",
+        price: 69.95,
+        imageHover: 'http://localhost:8000/public/images/sport/product2-hover.jpg',
+        image: `http://localhost:8000/public/images/sport/product2.jpg`,
+        ratting: 4.5,
+        countOfRatting: 94,
+        to: '/product/sport-shirt-2',
+        features: [
+            'Material: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+            'Do not use fabric softener',
+            'Wash with the same colored laundry',
+            'Don´t iron over graphics',
+            'Do not use bleach',
+            'Dont clean chemically',
+            'Iron to lowest setting',
+            'Wash inside out',
+            'Reference: DR2616-450',
+        ],
+    },
+    {
+        id: 'sport-shirt-3',
+        nameProduct: 'T-SHIRT UNDER ARMOUR PHOTOREAL FIELD GF SS',
+        category: "SHIRT-sport",
+        price: 24.61,
+        imageHover: 'http://localhost:8000/public/images/sport/product3-hover.jpg',
+        image: `http://localhost:8000/public/images/sport/product3.jpg`,
+        ratting: 4.5,
+        countOfRatting: 94,
+        to: '/product/sport-shirt-3',
+        features: [
+            'Material:',
+            '60% Cotton: A very soft and pleasant material whose properties include tensile strength and elongation at break.',
+
+            '40% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+
+            'Reference: 1374005-001',
+        ],
+    },
+    {
+        id: 'sport-shirt-4',
+        nameProduct: 'T-SHIRT UNDER ARMOUR HEATGEAR® ARMOUR PRINTED COMPRESION SS',
+        category: "SHIRT-sport",
+        price: 30.56,
+        imageHover: 'http://localhost:8000/public/images/sport//product4-hover.jpg',
+        image: `http://localhost:8000/public/images/sport/product4.jpg`,
+        ratting: 4.5,
+        countOfRatting: 94,
+        to: '/product/sport-shirt-4',
+        features: [
+            'HeatGear® Armour is our original performance baselayer—the one you put on first and take off last. So we made it extra comfortable by wicking sweat and stretching so you can move no matter what.',
+            'Material:',
+            '16% Elastane: used in combination with other materials, especially for its excellent flexibility - its fiber can stretch up to three times its normal length and then return to its original state.',
+            '84% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+            'Do not use fabric softener',
+            'Wash with the same colored laundry',
+            'Don´t iron over graphics',
+            'Do not use bleach',
+            'Dont clean chemically',
+            'Iron to lowest setting',
+            'Wash inside out',
+            'Reference: 1373819-810',
+        ],
+    },
+    {
+        id: 'sport-shirt-5',
+        nameProduct: 'T-SHIRT UNDER ARMOUR TEAM ISSUE WORDMARK SS TEE',
+        category: "SHIRT-sport",
+        price: 24.95,
+        imageHover: 'http://localhost:8000/public/images/sport/product5-hover.jpg',
+        image: `http://localhost:8000/public/images/sport/product5.jpg`,
+        ratting: 4.5,
+        countOfRatting: 94,
+        to: '/product/sport-shirt-5',
+        features: [
+            'Material:',
+            '60% Cotton: A very soft and pleasant material whose properties include tensile strength and elongation at break.',
+
+            '40% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+            'Do not use fabric softener',
+            'Wash with the same colored laundry',
+            'Don´t iron over graphics',
+            'Do not use bleach',
+            'Dont clean chemically',
+            'Iron to lowest setting',
+            'Wash inside out',
+            'Reference: 1329582-890',
+        ],
+    },
+    {
+        id: 'sport-shirt-6',
+        nameProduct: 'TANK TOP NIKE DRI-FIT MEN BASKETBALL JERSEY',
+        category: "SHIRT-sport",
+        price: 14.78,
+        imageHover: 'http://localhost:8000/public/images/sport/product6-hover.jpg',
+        image: `http://localhost:8000/public/images/sport/product6.jpg`,
+        ratting: 4.5,
+        countOfRatting: 94,
+        to: '/product/sport-shirt-6',
+        features: [
+            'Material:',
+            '100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+
+            'Reference: DA1041-011',
+        ],
+    },
+    /*------------------------------------------------------------Coat----------------------------------------------- */
+    /*------------------------------------------------------------Coat----------------------------------------------- */
+    {
+        id: 'coat-1',
+        nameProduct: 'JACKET THE NORTH FACE M 1996 RETRO NUPTSE JACKET',
+        category: "SHIRT-coat",
+        price: 254.96,
+        imageHover: 'http://localhost:8000/public/images/coat/product1-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product1.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-1',
+        features: [
+            'DWR (Durable Water Repellent): A special surface treatment of the fabric which makes it hydrophobic - ie durable water-repellent.',
+
+            'RDS (Responsible Down Standard): A guarantee that the goose down used in the production has been produced responsibly, comes from ethical sources and the manufacturer knows its origin.',
+            
+            'PFC-free water-repellent treatment: Here you can be sure that in the production of this piece, no PFCs (perfluorinated compounds) were used, ensure the material water repellency.',
+            'Material: 100% Recycled nylon',
+            'Care instructions:',
+            'Use only mild washing detergent',
+
+            'Do not use bleach',
+            
+            'Dont clean chemically',
+            
+            'Washable in a washing machine 40º',
+            
+            'Dont iron',
+            
+            'Dry in a tumble dryer to a slight degree',
+            
+            'Wash inside out',
+            
+            'Reference:NF0A3C8D7481',
+        ],
+    },
+    {
+        id: 'coat-2',
+        nameProduct: 'JACKET COLUMBIA CHALLENGER™ PULLOVER',
+        category: "SHIRT-coat",
+        price: 137.95,
+        imageHover: 'http://localhost:8000/public/images/coat/product2-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product2.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-2',
+        features: [
+            'Material: 100% Nylon: is known for its simple maintenance and high resistance, it is a relatively hard material. ',
+            'Care instructions:',
+            'Washable in a washing machine ',
+            'Reference:  1698431011',
+        ],
+    },    {
+        id: 'coat-3',
+        nameProduct: 'JACKET COLUMBIA PUFFECT™ HOODED JACKET',
+        category: "SHIRT-coat",
+        price: 82.48,
+        imageHover: 'http://localhost:8000/public/images/coat/product3-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product3.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-3',
+        features: [
+            'Material: Thermarator™: This material is light as a feather and will keep you warm like a puffer jacket, yet there are no feathers.            ',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+
+            'Do not use fabric softener',
+            
+            'Do not use bleach',
+            
+            'Dont clean chemically',            
+            'Dont iron',
+            
+            'Dry in a tumble dryer to a slight degree',
+            
+            'Use only feather detergent for washing',
+            'Reference:2008413346',
+        ],
+    },    {
+        id: 'coat-4',
+        nameProduct: 'JACKET CARHARTT WIP MICHIGAN COAT ',
+        category: "SHIRT-coat",
+        price: 152.95,
+        imageHover: 'http://localhost:8000/public/images/coat/product4-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product4.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-4',
+        features: [
+            'Material: 100% Organic cotton',
+            'Care instructions:',
+            'Do not use bleach',
+
+            'Dont clean chemically',
+            
+            'Washable in a washing machine 40º',
+            
+            'Wash inside out',
+            'Reference:I026480.0MEFH',
+
+        ],
+    },    {
+        id: 'coat-5',
+        nameProduct: 'JACKET NIKE X OFF-WHITE HOODED JACKET GTX',
+        category: "SHIRT-coat",
+        price: 489.95,
+        imageHover: 'http://localhost:8000/public/images/coat/product5-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product5.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-5',
+        features: [
+            'Material: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption            ',
+            'Care instructions:',
+            'Do not use bleach',
+
+            'Dont clean chemically',
+            
+            'Washable in a washing machine 30º',
+            
+            'Wash inside out',
+            'Reference:DQ6456-247',
+        ],
+    },    {
+        id: 'coat-6',
+        nameProduct: 'BOMBER NIKE SPORTSWEAR SOLO SWOOSH SATIN BOMBER JACKET',
+        category: "SHIRT-coat",
+        price: 137.22,
+        imageHover: 'http://localhost:8000/public/images/coat/product6-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product6.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-6',
+        features: [
+            'Material: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption            ',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+
+            'Do not use fabric softener',
+            
+            'Wash with the same colored laundry',
+            
+            'Don´t iron over graphics',
+            
+            'Do not use bleach',
+            
+            'Dont clean chemically',
+            
+            'Iron to lowest setting',
+            
+            'Dry in a tumble dryer to a slight degree',
+            'Reference:DN1266-530',
+        ],
+    },    {
+        id: 'coat-7',
+        nameProduct: 'JACKET JORDAN 23 ENGINEERED TRACK JACKET ',
+        category: "SHIRT-coat",
+        price: 106.21,
+        imageHover: 'http://localhost:8000/public/images/coat/product7-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product7.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-7',
+        features: [
+            'You are currently looking at the special collection from the legendary brand Jordan called 23 Engineered. As the name suggests, the collection of apparel and sneakers was created with an emphasis on three main factors which are the alpha and omega of the brands line - versatility, form, and material. Jordan 23 Engineered blurs the differences between sports clothes and techwear, one of the biggest trends of the past years. Thats why the collection also features a lot of futuristic elements. Check out Jordan 23 Engineered and be ahead of everyone!',
+            'Material: ',
+            '5% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption',
+
+            '95% Nylon: is known for its simple maintenance and high resistance, it is a relatively hard material.',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+            
+            'Wash inside out',
+            'Reference:DA5622-010',
+        ],
+    },    {
+        id: 'coat-8',
+        nameProduct: 'JACKET COLUMBIA HELVETIA™ HALF SNAP FLEECE',
+        category: "SHIRT-coat",
+        price: 59.95,
+        imageHover: 'http://localhost:8000/public/images/coat/product8-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product8.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-8',
+        features: [
+            'Material: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption            ',
+            'Care instructions:',
+            'Do not use bleach',
+
+            'Dont clean chemically',
+            
+            'Washable in a washing machine 30º',
+            
+            'Wash inside out',
+            'Dry in a tumble dryer to a slight degree',
+
+            'Dont iron',
+
+
+            'Reference:1889853275',
+        ],
+    },    {
+        id: 'coat-9',
+        nameProduct: 'JACKET UNDER ARMOUR DOWN 2.0 JACKET ',
+        category: "SHIRT-coat",
+        price: 152.95,
+        imageHover: 'http://localhost:8000/public/images/coat/product9-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product9.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-9',
+        features: [
+            'UA Storm technology: Stay dry always. Thats the motto of Under Armours Storm technology, whether there be rain, high winds or snow. It performs to the max.    ',
+            'Material: 100% Nylon: is known for its simple maintenance and high resistance, it is a relatively hard material.            ',
+            'Care instructions:',
+            'Do not use bleach',
+
+            'Dont clean chemically',
+            
+            'Washable in a washing machine 30º',
+            'Dont iron',
+            'Wash with the same colored laundry',
+            'Dry in a tumble dryer to a slight degree',
+            'Reference:1372651-437',
+        ],
+    },    {
+        id: 'coat-10',
+        nameProduct: 'JACKET CALVIN KLEIN JEANS SHERPA LINED CHECK OVERSHIRT',
+        category: "SHIRT-coat",
+        price: 59.95,
+        imageHover: 'http://localhost:8000/public/images/coat/product10-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product10.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-10',
+        features: [
+            'Sherpa fabric: Soft and fluffy. The Sherpa fabric is wool made to perfection hailed in the textile industry and can replace fleece in a sustainable way. It is also ultra light and easy to care for.            ',
+            'Material: 100% Cotton: A very soft and pleasant material whose properties include tensile strength and elongation at break.',
+            'Care instructions:',
+            'Washable in a washing machine 30º',
+
+            'Wash and iron inside out',
+            
+            'Wash with the same colored laundry',
+            
+            'Don´t iron over graphics',
+            
+            'Dont clean chemically',
+            'Reference:J30J317127 XCF',
+        ],
+    },    {
+        id: 'coat-11',
+        nameProduct: 'JACKET REEBOK CLASSICS F ARCHIVE ANORAK',
+        category: "SHIRT-coat",
+        price: 48.6,
+        imageHover: 'http://localhost:8000/public/images/coat/product11-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product11.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-11',
+        features: [
+            'Hey there, modern-day explorer. Dont be caught on an epic adventure without the right jacket. This Reebok Classics piece was pulled straight from the archives and is served up fresh for you. Its loaded with perks, from the packable hood to the zip pocket to everything adjustable. Discovery time.            ',
+            'Material: 100% Polyester: a very strong synthetic fiber that boasts high heat resistance and excellent odor absorption            ',
+            'Care instructions:',
+            'Do not dry in a dryer',
+
+            'Washable in a washing machine 30º',
+
+            'Do not use fabric softener',
+
+            'Use only mild washing detergent',
+
+            'Wash with the same colored laundry',
+
+            'Do not use bleach',
+
+            'Dont clean chemically',
+
+            'Wash inside out',
+            'Reference:GV3465',
+        ],
+    },    
+    {
+        id: 'coat-12',
+        nameProduct: 'JACKET TOMMY JEANS COLOR BLOCK PADDED JACKET        ',
+        category: "SHIRT-coat",
+        price: 104.97,
+        imageHover: 'http://localhost:8000/public/images/coat/product12-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product12.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-12',
+        features: [
+            'Material: 100% Recycled nylon            ',
+            'Reference:DM0DM14450 C87',
+        ],
+    },
+    {
+        id: 'coat-13',
+        nameProduct: 'Daily Wear',
+        category: "SHIRT-coat",
+        price: 12.35,
+        imageHover: 'http://localhost:8000/public/images/coat/product13-hover.jpg',
+        image: `http://localhost:8000/public/images/coat/product13.jpg`,
+        ratting: 4.8,
+        countOfRatting: 340,
+        to: '/product/coat-13',
+        features: [
+            'Material 100% Polyester',
+            'Application technology: HeiQ Viro Block',
+            'Suitable for: sun protection, wind protection',
+            'Style: compact, easy to wear',
+            'Model: 1m75, 69kg * Wearing XL shirt, LOW pants',
+            'Proudly made in Vietnam',
+        ],
+    },
+    /*=============================================Brands===========================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+];
+
+
+module.exports = dataProduct;

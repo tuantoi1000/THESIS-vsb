@@ -1,0 +1,45 @@
+
+/* tạo khoảng cách cho các logo brand */
+.col-md-2-10 {
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 20%;
+  }
+  
+  /*tạo khung xung quanh cho logo */   
+  .browsers .image {
+    border: 2px solid #000000;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    margin:2px;
+    margin-bottom: 20px;
+    height: 100px;
+    width:200px;
+    padding: 10px;  
+  
+  }
+  
+  
+  /* tạo màu xám để tạo hover cho hình ảnh */
+  .browsers img  {
+    -webkit-filter: grayscale(200%) opacity(60%);
+    filter: grayscale(200%) opacity(60%);
+    width: 80px;
+    margin: 20px;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  /* chuyển về màu tự nhiên cho hình */   
+  .browsers .image:hover img {
+    -webkit-filter: none;
+    filter: none;
+  }
+  .padding-bottomss{
+    
+    margin-bottom:50px;
+  }
+  

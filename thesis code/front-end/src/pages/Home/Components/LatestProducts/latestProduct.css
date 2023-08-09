@@ -1,0 +1,22 @@
+.row{
+    justify-content: center;
+}
+
+.row .product_container{
+    width: 31%;
+    margin: 15px;
+}
+
+/* when tablet */
+@media screen and (max-width: 768px) {
+    .row .product_container{
+        width: 48%;
+    }
+}
+
+/* when mobile */
+@media screen and (max-width: 480px) {
+    .row .product_container{
+        width: 100%;
+    }
+}
