@@ -1,0 +1,71 @@
+
+.site-content {
+    padding-top: 25px
+}
+  
+
+.max-width-900 {
+  max-width: 900px;
+}
+
+.center {
+  text-align: center;
+}
+
+.faq-text {
+  font-family: "Segoe UI", SegoeuiPc, "San Francisco", "Helvetica Neue", Helvetica, "Lucida Grande", Roboto, Ubuntu, Tahoma, "Microsoft Sans Serif", Arial, sans-serif;
+  font-size: 15px;
+  white-space: pre-wrap;
+}
+
+  
+.faq {
+    font-size: 16px;
+    line-height: 1.5em
+}
+  
+.faq h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #0092f4;
+}
+.faq-box {
+    padding: 20px;
+    border: 1px solid #c7e4f4;
+    background-color: #0092f4;
+    border-radius: 5px
+}
+
+.faq h3 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 41px;
+    position: relative
+}
+  
+.faq h3:before {
+    content: "Hỏi:";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+  
+.faq h3 + p:before {
+    content: "Đáp:";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+}
+  
+.faq p {
+    position: relative;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 40px
+}
